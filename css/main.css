@@ -8,6 +8,21 @@ html {
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: 'chub';
+    src: url('../fonts/chubgothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'paris';
+    src: url('../fonts/parisienne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'myan';
+    src: url('../fonts/myanmar.ttf') format('truetype');
+}
+
 #container {
 
 }
