@@ -100,19 +100,49 @@ h3 {
 p {
     font-family: myan, sans-serif;
     color: #162b48;
+    padding: 5px;
+    margin: 5px;
+    background-color: hsla(45, 28%, 96%, 0.7);
     font-size: 1.1em;
 }
 
-.button {
-    background-image: url('../images/banner.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    text-align: center;
-    width: 49%;
-    display: inline-block;
+a {
+    color: #c70005;
 }
 
-#adj section {
+a:hover {
+    color: #c5845a;
+}
+
+.button {
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+    background-image: url('../images/glitter.jpg');
+    background-color: hsla(359, 54%, 31%, 1);
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+    -webkit-box-shadow: 5px 5px 5px 5px #b0b0b0;
+    box-shadow: 5px 5px 5px 5px #b0b0b0;
+}
+
+.button a {
+    color: #7a2426;
+    font-family: paris, serif;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #162b48;
+    font-family: paris, serif;
+    font-weight: bold;
+}
+
+section {
     padding: 5px;
     background-color: hsla(45, 28%, 96%, 0.5);
     margin: auto;
@@ -128,6 +158,7 @@ p {
     background-color: hsla(45, 28%, 96%, 0.7);
     min-width: 175px;
     font-size: 1.1em;
+    color: #162b48;
 }
 
 .full {
