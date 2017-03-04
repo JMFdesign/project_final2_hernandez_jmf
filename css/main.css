@@ -127,6 +127,18 @@ a:hover {
     box-shadow: 5px 5px 5px 5px #b0b0b0;
 }
 
+.button:hover {
+    animation-name: tilt;
+    -webkit-animation-name: tilt;
+    -moz-animation-name: tilt;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+}
+
 .button a {
     color: #7a2426;
     font-family: paris, serif;
@@ -136,10 +148,60 @@ a:hover {
     font-size: 1.5em;
 }
 
-a:hover {
+.button a:hover {
     color: #162b48;
     font-family: paris, serif;
     font-weight: bold;
+}
+
+@keyframes tilt {
+    0% {
+        transform: rotateX(0deg);
+        margin-top: 0;
+    }
+
+    50% {
+        transform: rotateX(40deg);
+        margin-top: 30px;
+    }
+
+    100% {
+        transform: rotateX(0deg);
+        margin-top: 0;
+    }
+}
+
+@-webkit-keyframes tilt {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(40deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+@-moz-keyframes tilt {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(40deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+section {
+    text-align: center;
+    margin: 100px 50px;
 }
 
 section {
