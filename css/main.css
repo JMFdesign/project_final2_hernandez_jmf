@@ -51,11 +51,10 @@ header img {
 }
 
 #logo {
-    width: 80vw;
+    width: 50vw;
     height: auto;
     margin: auto;
     max-width: 500px;
-
 }
 
 h1 {
@@ -89,6 +88,7 @@ article {
     width: 90%;
     padding: 5px;
     background-color: none;
+    margin: auto;
 }
 
 h3 {
@@ -116,7 +116,6 @@ a:hover {
 
 .button {
     text-align: center;
-    width: 25%;
     display: inline-block;
     padding: 10px;
     background-image: url('../images/glitter.jpg');
@@ -211,6 +210,15 @@ section {
     min-width: 200px;
 }
 
+#buttons {
+    margin: auto;
+    padding: 20px;
+}
+
+#adj {
+    margin:auto;
+}
+
 #adj p {
     display: inline-block;
     padding: 5px;
@@ -226,4 +234,23 @@ section {
 .full {
     width: 100%;
     height: auto;
+}
+
+@media all and (min-width: 800px) {
+    #left {
+        width: 40%;
+        display: inline-block;
+    }
+
+    #right {
+        width: 55%;
+        display: inline-block;
+    }
+
+    #logo {
+        width: 30%;
+        display: block;
+        padding: 15px;
+        width: 80vw;
+    }
 }
