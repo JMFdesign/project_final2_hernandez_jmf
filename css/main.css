@@ -30,12 +30,13 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 #container {
     background-image: url('../images/skin.png');
     background-repeat: no-repeat;
-    width: 95vw;
+    width: 90vw;
     margin: -10px auto 0 auto;
 }
 
@@ -98,6 +99,7 @@ h3 {
 p {
     font-family: myan, sans-serif;
     color: #162b48;
+    font-size: 1.1em;
 }
 
 .button {
@@ -124,6 +126,7 @@ p {
     width: calc(100% / 3.15);
     background-color: hsla(45, 28%, 96%, 0.7);
     min-width: 175px;
+    font-size: 1.1em;
 }
 
 .full {
@@ -135,12 +138,12 @@ footer {
     background-color: #162b48;
     width: 120vw;
     margin-left: -50px;
-    overflow-x: hidden;
+
 }
 
 footer p {
     color: #f2e3bc;
     padding: 5px;
-    margin: auto;
     text-align: center;
+    font-size: 1.1em;
 }
