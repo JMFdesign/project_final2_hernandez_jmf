@@ -133,17 +133,3 @@ p {
     width: 100%;
     height: auto;
 }
-
-footer {
-    background-color: #162b48;
-    width: 120vw;
-    margin-left: -50px;
-
-}
-
-footer p {
-    color: #f2e3bc;
-    padding: 5px;
-    text-align: center;
-    font-size: 1.1em;
-}
