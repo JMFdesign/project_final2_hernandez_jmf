@@ -23,42 +23,122 @@ html {
     src: url('../fonts/myanmar.ttf') format('truetype');
 }
 
+body {
+    background-image: url('../images/paris.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
 #container {
+    background-image: url('../images/skin.png');
+    background-repeat: no-repeat;
+    width: 95vw;
+    margin: -10px auto 0 auto;
+}
+
+header {
+    width: 80vw;
+    margin: auto;
+}
+
+header img {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#logo {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    max-width: 500px;
 
 }
 
 h1 {
+    font-family: chub, sans-serif;
+    visibility: hidden;
+    padding: 5px;
+    width: 80vw;
+    margin: auto;
+}
 
+main {
+    padding: 5px;
+    width: 80vw;
+    margin: auto;
 }
 
 h2 {
-
+    font-family: chub, sans-serif;
+    color: #7a2426;
+    font-size: 2em;
 }
 
 article {
+    width: 90%;
+    padding: 5px;
 
 }
 
 .no_bgd {
-
+    width: 90%;
+    padding: 5px;
+    background-color: none;
 }
 
 h3 {
-
+    font-family: paris, serif;
+    color: #c5845a;
+    font-size: 1.5em;
 }
 
 p {
-
+    font-family: myan, sans-serif;
+    color: #162b48;
 }
 
 .button {
-
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    width: 49%;
+    display: inline-block;
 }
 
-#adj {
+#adj section {
+    padding: 5px;
+    background-color: hsla(45, 28%, 96%, 0.5);
+    margin: auto;
+    min-width: 200px;
+}
 
+#adj p {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    width: calc(100% / 3.15);
+    background-color: hsla(45, 28%, 96%, 0.7);
+    min-width: 175px;
+}
+
+.full {
+    width: 100%;
+    height: auto;
 }
 
 footer {
+    background-color: #162b48;
+    width: 120vw;
+    margin-left: -50px;
+    overflow-x: hidden;
+}
 
+footer p {
+    color: #f2e3bc;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
 }
